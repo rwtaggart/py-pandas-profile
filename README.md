@@ -9,7 +9,7 @@ This experiment uses a simple DataFrame comparator as the basis for benchmarking
 1. Iterate over columns and compare all rows per-column "vector-wise"
 2. `DataFrame.compare()`
 3. Iterate over columns and rows to compare element-wise
-4. For-loop over columns and use `DataFrame.apply()` to compare element-wise
+4. Iterate over columns and use `DataFrame.apply()` to compare element-wise
 
 ## Conclusion
 1. The vector-wise per-column iteration implementation (without using `DataFrame.apply()`) had more than `500x` improvement over the other loop-based methods.
