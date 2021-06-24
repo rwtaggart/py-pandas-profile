@@ -23,7 +23,7 @@ The following line-charts are generated based on the data recorded in [./data/pa
 ![image log-scale benchmark chart](data/pandas-compare-log.png)
 
 ### Experiment
-`./cmp_data.py` was used to run the experiment:
+[`./cmp_data.py`](./cmp_data.py) was used to run the experiment:
 ```sh
 # GENERATE: 
 $ python3 cmp_data.py --generate -s "[(10,10), (1000,10), (10000, 20), (100000, 50), (500000, 75), (1000000, 100)]" 
