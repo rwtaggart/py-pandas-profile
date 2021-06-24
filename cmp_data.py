@@ -100,7 +100,7 @@ class Timer:
 
 
 def cmp_for_col_row_elem(dfa, dfb):
-    """ use for loop over columns and rows to compare element-wise """
+    """ Iterate over columns and rows to compare element-wise """
     if not dfa.columns.equals(dfb.columns):  raise ValueError('DataFrame columns must be equivalent')
     diffs = defaultdict(list)
     for c in dfa.columns:
@@ -110,7 +110,7 @@ def cmp_for_col_row_elem(dfa, dfb):
 
 
 def cmp_for_col_apply_elem(dfa, dfb):
-    """ use for loop over columns and use DataFrame.apply() to compare element-wise """
+    """ Iterate over columns and use DataFrame.apply() to compare element-wise """
     if not dfa.columns.equals(dfb.columns):  raise ValueError('DataFrame columns must be equivalent')
     diffs = defaultdict(list)
     cols = dfa.columns
@@ -123,7 +123,7 @@ def cmp_for_col_apply_elem(dfa, dfb):
 
 
 def cmp_for_col_vec(dfa, dfb):
-    """ use for loop over columns to compare vector-wise """
+    """ Iterate over columns to compare vector-wise """
     if not dfa.columns.equals(dfb.columns):  raise ValueError('DataFrame columns must be equivalent')
     diffs = defaultdict(list)
     for c in dfa.columns:
