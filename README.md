@@ -4,7 +4,7 @@ Comparison of various implementations of a data comparator using pandas Python l
 ## I. Introduction
 Pandas is a Python library for data analysis and manipulation. As we continue to perform more experiments as data scientists, I think it's important we understand the libraries we use. Pandas offers several methods for data storage and manipulation. As such, there can be muliple methods to achieve the same task. 
 
-This experiment uses a simple DataFrame comparator as the basis for benchmarking. There are 4 implementations of the comparator algorithm (in order of measured performance, see [Implementation](#B.-Implementation) for details):
+This experiment uses a simple DataFrame comparator as the basis for benchmarking. There are 4 implementations of the comparator algorithm (in order of measured performance, see [Implementation](#b-implementation) for details):
 1. Iterate over columns and compare all rows per-column "vector-wise"
 2. `DataFrame.compare()`
 3. Iterate over columns and rows to compare element-wise
