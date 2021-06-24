@@ -1,0 +1,9 @@
+Dimension,Size (KB),CSV (s),"For col, row (s)","For col, apply (s)","For col, vector (s)",DF.compare(),X-factor vs. for,X-factor vs. apply
+10x10,5.17E-01,5ms,2ms,10ms,4ms,8ms,0.5,3
+1000x10,4.90E+01,5ms,64ms,140ms,2ms,9ms,32,70
+10000x20,9.79E+02,33ms,1s 394ms,2s 412ms,4ms,29ms,349,603
+100000x50,2.45E+04,695ms,30s 956ms,1m 0s 910ms,28ms,551ms,1106,2175
+500000x75,1.83E+05,4s 711ms,3m 41s 783ms,7m 20s 115ms,222ms,7s 141ms,999,1983
+1000000x100,4.89E+05,12s 793ms,9m 44s 505ms,19m 28s 829ms,1s 887ms,20s 227ms,310,619
+,,,,,,,Total time (est.),42m 11s 509ms
+,,,,,,,Total time (actual),42m 11s 788ms

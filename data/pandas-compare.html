@@ -1,0 +1,105 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Dimension</th>
+      <th>Size (KB)</th>
+      <th>CSV (s)</th>
+      <th>For col, row (s)</th>
+      <th>For col, apply (s)</th>
+      <th>For col, vector (s)</th>
+      <th>DF.compare()</th>
+      <th>X-factor vs. for</th>
+      <th>X-factor vs. apply</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10x10</td>
+      <td>0.517</td>
+      <td>5ms</td>
+      <td>2ms</td>
+      <td>10ms</td>
+      <td>4ms</td>
+      <td>8ms</td>
+      <td>0.5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1000x10</td>
+      <td>49.0</td>
+      <td>5ms</td>
+      <td>64ms</td>
+      <td>140ms</td>
+      <td>2ms</td>
+      <td>9ms</td>
+      <td>32</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>10000x20</td>
+      <td>979.0</td>
+      <td>33ms</td>
+      <td>1s 394ms</td>
+      <td>2s 412ms</td>
+      <td>4ms</td>
+      <td>29ms</td>
+      <td>349</td>
+      <td>603</td>
+    </tr>
+    <tr>
+      <td>100000x50</td>
+      <td>24500.0</td>
+      <td>695ms</td>
+      <td>30s 956ms</td>
+      <td>1m 0s 910ms</td>
+      <td>28ms</td>
+      <td>551ms</td>
+      <td>1106</td>
+      <td>2175</td>
+    </tr>
+    <tr>
+      <td>500000x75</td>
+      <td>183000.0</td>
+      <td>4s 711ms</td>
+      <td>3m 41s 783ms</td>
+      <td>7m 20s 115ms</td>
+      <td>222ms</td>
+      <td>7s 141ms</td>
+      <td>999</td>
+      <td>1983</td>
+    </tr>
+    <tr>
+      <td>1000000x100</td>
+      <td>489000.0</td>
+      <td>12s 793ms</td>
+      <td>9m 44s 505ms</td>
+      <td>19m 28s 829ms</td>
+      <td>1s 887ms</td>
+      <td>20s 227ms</td>
+      <td>310</td>
+      <td>619</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Total time (est.)</td>
+      <td>42m 11s 509ms</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Total time (actual)</td>
+      <td>42m 11s 788ms</td>
+    </tr>
+  </tbody>
+</table>
